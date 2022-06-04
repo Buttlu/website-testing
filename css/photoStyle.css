@@ -1,0 +1,22 @@
+.flowerDiv {
+    display: block;
+    background-color: rgb(255, 78, 107);
+}
+.dogDiv {
+    display: block;
+    background-color: rgb(255, 133, 93);
+}
+.natureDiv {
+    display: block;
+    background-color: rgb(5, 189, 5);
+}
+.darkDiv {
+    display: block;
+    background-color: rgb(24, 24, 24);
+}
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
