@@ -19,3 +19,55 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+/*#region my_translation*/
+.my02 {
+    margin-top: 52px;
+}
+
+.my03 {
+    margin-top: 58px;
+}
+
+.my04 {
+    margin-top: 62px;
+}
+
+.my05 {
+    margin-top: 60px;
+}
+
+.my06 {
+    margin-top: 41px;
+}
+
+.my07 {
+    margin-top: 54px;
+}
+/*#endregion*/
+
+/*#region en_translation*/
+.en02 {
+    margin-top: 118px;
+}
+
+.en03 {
+    margin-top: 59px;
+}
+
+.en04 {
+    margin-top: 67px;
+}
+
+.en05 {
+    margin-top: 60px;
+}
+
+.en06 {
+    margin-top: 29px;
+}
+
+.en07 {
+    margin-top: 54px;
+}
+/*#endregion*/
