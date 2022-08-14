@@ -1,0 +1,106 @@
+body {
+    background-image: url("../Images/backgroundImage.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.folder {
+    width: 70px;
+    aspect-ratio: 0.7;
+}
+
+.folderText {
+    text-align: center;
+    width: 70px;
+    padding: 10px;
+    color: white;
+}
+
+.folderText img {
+    display: block;
+    margin: 0 auto;
+}
+
+.closeButton {
+    width: 10px;
+    aspect-ratio: 1;
+    background-color: red;
+    border-radius: 40%;
+    color: white;
+    text-align: 0 auto;
+}
+
+/*#region folderTest*/
+#folderTests {
+    position: absolute;
+    z-index: 9;
+    background-color: #666666;
+    text-align: center;
+    border: 1px solid #505050;
+    color:rgb(219, 219, 219);
+}
+  
+#folderTestsheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+}
+/*#endregion*/
+/*#region folderTranslation*/
+#folderTrans {
+    position: absolute;
+    z-index: 9;
+    background-color: #666666;
+    text-align: center;
+    border: 1px solid #505050;
+    color:rgb(219, 219, 219);
+}
+  
+#folderTransheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+}
+/*#endregion*/
+/*#region Photo Collection*/
+#folderPhotos {
+    position: absolute;
+    z-index: 9;
+    background-color: #666666;
+    text-align: center;
+    border: 1px solid #505050;
+    color:rgb(219, 219, 219);
+}
+  
+#folderPhotosheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+}
+/*#endregion*/
+/*#region Source Code*/
+#folderCode {
+    position: absolute;
+    z-index: 9;
+    background-color: #666666;
+    text-align: center;
+    border: 1px solid #505050;
+    color:rgb(219, 219, 219);
+}
+  
+#folderCodeheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+}
+/*#endregion*/

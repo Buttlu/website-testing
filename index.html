@@ -2,19 +2,72 @@
 <html>
   <head>
     <title>ウェッブページ</title>
-    <link rel="stylesheet" type="text/css" href="css/buttonStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/homePage.css">
+    <script src="js/homePage.js" defer></script>
   </head>
   <body>
     <table>
       <tr>
-       <div><th><a href="test1.html" button class="button">Click for 1</button></a></th></div>
-       <div><th><a href="test2.html" button class="button">Click for 2</button></a></th></div>
-       <div><th><a href="test3.html" button class="button">Click for 3</button></a></th></div>
-       <div><th><a href="nainaiLyricSite.html" button class="button">nai nai (ないない) lyric translation attempt</button></a></th></div>
-       <div><th><a href="photoCollection.html" button class="button">Photo Collection</button></a></th></div>
-       <div><th><a href="OddloopTranslate.html" button class="button">Oddloop (オドループ) lyric translation attempt</a></th></div>
-       <div><th><a href="reactTest.html" button class="button">Official React Testing</a></th></div>
-       <div><th><a href="ownReactTest.html" button class="button">My React Testing</a></th></div>
+        <!--#region TestFolder-->
+        <div>
+          <th>
+            <input type="image" src="Images/folderImage.png" class="folder" onclick="setFoldertests()" />
+            <p class="folderText">Tests</p>
+            <div id="folderTests" style="display: none;">
+              <div id="folderTestsheader">Tests&nbsp;<button class="closeButton" onclick="hideFolder()"></button></div>
+              <a href="test1.html"><input type="image" src="Images/HomepageImages/test1Image.png" class="folder" /></a>
+              <p class="folderText">Test 1</p>
+              <a href="test2.html"><input type="image" src="Images/HomepageImages/test2Image.png" class="folder" /></a>
+              <p class="folderText">Test 2</p>
+              <a href="test3.html"><input type="image" src="Images/HomepageImages/test3Image.png" class="folder" /></a>
+              <p class="folderText">Test 3</p>
+            </div>
+          </th>
+        </div>
+        <!--#endregion-->
+        <!--#region TranslationFolder-->
+        <div>
+          <th>
+            <input type="image" src="Images/folderImage.png" class="folder" onclick="setFolderTranslation()" />
+            <p class="folderText">Translation</p>
+            <div id="folderTrans" style="display: none;">
+              <div id="folderTransheader">Translation&nbsp;<button class="closeButton" onclick="hideFolder()"></button></div>
+              <a href="OddloopTranslate.html"><input type="image" src="Images/HomepageImages/oddloopImage.png" class="folder" /></a>
+              <p class="folderText">oddloop</p>
+              <a href="nainaiLyricSite.html"><input type="image" src="Images/HomepageImages/nainaiImage.png" class="folder" /></a>
+              <p class="folderText">nai nai</p>
+            </div>
+          </th>
+        </div>
+        <!--#endregion-->
+        </tr>
+        <tr>
+        <!--#region PhotosFolder-->
+        <div>
+          <th>
+            <input type="image" src="Images/folderImage.png" class="folder" onclick="setFolderPhotos()" />
+            <p class="folderText">Gallery</p>
+            <div id="folderPhotos" style="display: none;">
+              <div id="folderPhotosheader">Photo Collection&nbsp;<button class="closeButton" onclick="hideFolder()"></button></div>
+              <a href="photoCollection.html"><input type="image" src="Images/HomepageImages/photocollection.png" class="folder" /></a>
+              <p class="folderText">Photo Collection</p>
+            </div>
+          </th>
+        </div>
+        <!--#endregion-->
+        <!--#region SourceCodeFolder-->
+        <div>
+          <th>
+            <input type="image" src="Images/folderImage.png" class="folder" onclick="setFolderCode()" />
+            <p class="folderText">Code</p>
+            <div id="folderCode" style="display: none;">
+              <div id="folderCodeheader">Source Code&nbsp;<button class="closeButton" onclick="hideFolder()"></button></div>
+              <a href="https://github.com/Buttlu/website-testing" target="_blank"><input type="image" src="Images/HomepageImages/github.JPG" class="folder" /></a>
+              <p class="folderText">Source Code</p>
+            </div>
+          </th>
+        </div>
+        <!--#endreion-->
      </tr>
     </table>
   </body>
